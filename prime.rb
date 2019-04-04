@@ -5,5 +5,8 @@ def prime?(number)
   else
     array = (2..number).to_a
     puts array
+    array.any? do |nums|
+      number % nums == 0
+    end
   end
 end
