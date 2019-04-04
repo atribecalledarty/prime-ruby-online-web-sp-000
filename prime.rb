@@ -2,7 +2,7 @@
 def prime?(number)
   if number <= 1
     return false
-  elsif number == 2
+  elsif number == 2 
     return true
   else
     array = (2..number).to_a
