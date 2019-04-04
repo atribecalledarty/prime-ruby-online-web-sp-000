@@ -3,7 +3,7 @@ def prime?(number)
   if number <= 1
     return false
   else
-    array = to_a(2..number)
+    array = (2..number).to_a
     puts array
   end
 end
