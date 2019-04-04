@@ -4,7 +4,6 @@ def prime?(number)
     return false
   else
     array = (2..number).to_a
-    puts array
     if array.any?{|nums| number % nums == 0}
       return false
       
