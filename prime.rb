@@ -5,7 +5,7 @@ def prime?(number)
   elsif number == 2
     return true
   else
-    array = (2..number).to_a
+    array = (2..(number - 1)).to_a
     if array.any?{|nums| number % nums == 0}
       return false
       
